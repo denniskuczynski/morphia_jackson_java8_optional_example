@@ -6,6 +6,7 @@ import org.mongodb.morphia.mapping.MappedField;
 
 import java.util.Optional;
 
+// Originally seen in https://github.com/mongodb/morphia/issues/600 via darbie
 public class OptionalConverter extends TypeConverter
 {
   private DefaultConverters defaultConverters;
